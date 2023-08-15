@@ -1,0 +1,61 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+}
+.guia{
+  display: grid;
+  border: 1px solid #ccc;
+  padding: 0;
+
+}
+.opciones{
+  display: flex;
+  place-content: space-between;
+  place-items: center;
+  padding:  1rem;
+  border-bottom: 3px solid gold;
+  background: rgb(114, 97, 4);
+}
+
+.permiso-usuario{
+  display: flex;
+  flex-direction: column;
+  place-content: space-between;
+  place-items: center;
+  padding:  1rem;
+  background: rgb(220, 219, 216);
+  color: #223;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+h1{
+  padding: 1rem;
+  border-bottom: 3px solid gold;
+}
+ol{
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+}
+
+
+@media  screen and (min-width: 480px) {
+  #root{
+    width: 100%;
+  }
+}
+  
+@media  screen and (min-width: 768px) {
+  #root{
+    width: 75vw;
+  }
+}
+
+@media  screen and (min-width: 1024px) {
+  #root{
+    width: 50vw;
+  }
+}

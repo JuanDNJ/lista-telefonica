@@ -1,0 +1,23 @@
+.opcionesEditar,.opcionesBusqueda, .optionInput{
+    display: flex;
+    gap: 1rem;
+    place-items: center;
+}
+.opcionesBusqueda{
+   place-content: space-around;
+}
+
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"] + label{
+
+    color: snow;
+    cursor: pointer;
+    user-select: none;
+}
+input[type="radio"]:checked + label{
+    background-color: #1a1a1a;
+    color: rgb(110, 210, 10);
+}
+
