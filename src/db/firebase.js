@@ -7,11 +7,7 @@ import { getDatabase, push, ref, set, update } from "firebase/database";
 // Your web app's Firebase configuration
 import { firebaseConfig } from '../config/index.js'
 
-console.log(firebaseConfig)
-
-
-
-// Initialize Firebase
+// Initialize Firebased
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 console.log(database)
