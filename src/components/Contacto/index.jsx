@@ -1,5 +1,6 @@
 import styles from './styles.module.css';
 import { useOpciones } from '../../context/opcionesContext';
+import {app} from '../../db/firebase.js'
 const Contacto = ({ contacto, children }) => {
     const { editar } = useOpciones()
     return (
